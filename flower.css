@@ -1,0 +1,287 @@
+/* lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+padding:0px;
+margin: 0px;
+font-family: "lato",sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+/* banner part start */
+#banner-container{
+    background: rgba(229, 84, 115, 0.1);
+
+}
+.banner{
+    display: flex;
+    padding: 50px 200px 0px;
+    position: relative;
+    background: rgba(229, 84, 115, 0.1);
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+}
+#banner-para{
+    margin: 32px 0;
+    width: 634px;
+    color: rgb(85, 84, 84);
+}
+.banner-btn{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(203, 112, 215);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+}
+.banner-right{
+    position:absolute;
+    bottom: -2px;
+    right: 240px;
+    
+}
+img{
+    height: 500px;
+    width: 500px;
+    bottom: 0px;
+}
+/* banner part end */
+
+/* footer part start */
+.footer-container{
+    background-color: black;
+    height: 260px;
+    padding: 128px 649px;
+}
+span{
+    color: rgb(237, 132, 212);
+}
+.footer-hading{
+    color: aliceblue;
+    text-align: center;
+}
+.footer-para{
+    color: aliceblue;
+    text-align: center;
+    width: 550px;
+}
+h6{
+    color: rgb(163, 164, 164);
+    text-align: center;
+    padding: 32px;
+}
+
+/* footer part end */
+
+/* main part start */
+.main-hading{
+    text-align: center;
+}
+.main-h2{
+    color: black;
+    padding-top: 50px;
+    font-weight: 1000px;
+    font-size: 30px;
+}
+.main-para{
+    color: black;
+    width: 550px;
+    padding:32px 640px;
+
+}
+
+/* main 3img part */
+.content-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+}
+.fst-img,.second-img,.third-img{
+    border-radius:300px 300px 0 0;
+    width: 450px;
+    height: 500px;
+}
+
+.fst-img{
+    background-color: rgba(224, 152, 192, 0.842);
+    
+}
+.second-img{
+    background-color: rgb(189, 231, 243);
+}
+.third-img{
+    background-color: rgb(201, 245, 214);
+}
+
+.cimg1,.cimg2,.cimg3{
+
+    height: 450px;
+    width: 300px;
+
+}
+.cimg3,.cimg1{
+   position: relative;
+   top: 50px;
+}
+.cimg2{
+    position: relative;
+    top: 50px;
+}
+
+
+/* 3 icon part */
+.content-icon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(203, 203, 203);
+    margin: 128px 240px 128px 240px;
+    padding: 80px 124px ;
+  
+}
+.fst-icon,.second-icon,.third-icon{
+    border-radius: 300px 300px 0 0;
+    
+   top: 86px;
+}
+.cicon1,.cicon2,.cicon3{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+
+}
+.iname1,.iname2,.iname3{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#add-container{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.add{
+    display: flex;
+    padding: 50px 200px 0px;
+    position: relative;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 500px;
+} 
+.add-title{
+    font-size: 40px;
+    font-weight: 500px;
+   padding-top: 100px;
+   padding-left: 50px;
+}
+#add-para{
+    margin: 32px 0;
+    width: 634px;
+    color: rgb(120, 119, 119);
+    padding-left: 50px;
+} 
+.add-half-para{
+    color: rgb(120, 119, 119) ;
+    padding-left: 60px;
+}
+.add-btn{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(203, 112, 215);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+}
+.new-btn{
+    padding-left: 200px;
+}
+.add-right{
+    position: absolute;
+    bottom: 80px;
+    right: 450px;
+}
+.add-img{
+    height: 400px;
+    width: 300px;
+}
+/* instagram part */
+.insta-container{
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.insta-h2{
+    padding-top: 80px;
+    font-weight: 1000px;
+    font-size: 30px;
+
+}
+.insta-para{
+    padding-top: 24px;
+    color: rgb(156, 154, 154);
+    padding-bottom: 48px;
+}
+
+/* 4 insta img part */
+.insta-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px 240px 128px;
+}
+
+.in-img1,.in-img2,.in-img3,.in-img4{
+    height: 300px;
+    width: 300px;
+}
+/* instagram part end */
+
+/* deals part start */
+.deals-container{
+    background-image: url(./Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+    width: 1300px;
+    height: 450px;
+    margin-left: 295px;
+    margin-right: 240px;
+    margin-bottom: 128px;
+}
+.deals-area{
+    text-align: center;
+}
+.deals-heading{
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 122px;
+}
+.deals-para{
+    color: rgb(144, 143, 143);
+    padding-top: 20px;
+}
+.input-email{
+    padding-top: 40px;
+}
+.inp{
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+}
+.subscribe{
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(232, 119, 206);
+    color: azure;
+    font-size: 18px;
+    border: none;
+    
+}
